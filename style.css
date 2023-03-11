@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: aliceblue;
+ 
+    font-family: 'Oxygen', sans-serif;
+    height: 1200px;
+}
+.height{
+    height: 100px;
+    background-color: white;
+}
+input[type=text]{
+    border: none;
+    height: 20px;
+    padding: 13px;
+    margin-left: 20px;
+}
+::placeholder{
+    text-transform: capitalize;
+}
+.fa-solid{
+   color: grey;
+
+}
+h2{
+    color: grey;
+    text-transform: capitalize;
+    margin-left: 18px;
+}
+.text{
+    text-transform: capitalize;
+    color: white;
+    z-index: 1;
+    margin: 15px;    
+}
+.text h1{
+    font-weight: bolder;
+}
+.text p{
+    margin: 10px 0px;
+}
+.text button{
+    margin: 10px 0px;
+    color: rgb(114, 114, 248);
+    display: block;
+    padding: 6px;
+    text-transform: capitalize;
+    font-weight: 300;
+    background-color: white;
+    border: none;
+    width: 100px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;   
+    height: 90px;
+}
+
+sup{
+    font-size: 10px;
+    text-transform: none;
+    color: rgb(236, 61, 61);
+    text-transform: capitalize;
+    font-style: italic;
+}
+.red{
+    width: 930px;
+    height: 350px;
+    background-image: url(./pexels-wendy-wei-1537638.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+}
+.auto{
+    display: flex;
+    justify-content: center;
+
+}
+.linear{
+    position: absolute;
+    background-image: linear-gradient(to right,red,purple);
+    width: 930px;
+    height: 350px;
+    opacity: 50%;
+}
+.relative{
+    
+    z-index: 1;
+    margin-top: 45px;
+    margin-right: 10px;
+    width: 200px;
+    height: 330px;
+    background-color: white;
+}
+.relative img{
+    width: 100%;    
+
+    
+}
+.ma{
+    margin-top: 25px;
+}
+.stars .fa-solid{
+    color: gold;
+}
+.flex-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+
+}
+.stars{
+    padding: 14px;
+}
+.stars p{
+    text-transform: capitalize;
+    font-size: 13px;
+}
+.cards-rela{
+    width: 300px;
+    position: relative;
+    background-color: white;
+    margin: 5px;
+}
+.cards-rela img{
+    width: 150px;
+    height: 150px;
+
+}
+.cards-rela{
+    display: flex;
+   
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    text-transform: capitalize;
+   
+}
+.texst{
+    margin: 20px;
+}
+.texst .fa-solid{
+    color: rgb(98, 98, 255);
+}
+
+h3{
+    margin-left: 170px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.he{
+    display: flex;
+    justify-content: center;
+
+}
+
+.he img{
+    width: 150px;
+    margin: 4px;
+}
+.rel{
+    position: relative;
+    background-color: white;
+    height: 270px;
+    margin: 2px;
+}
+.abs p{
+    text-align: center;
+    text-transform: capitalize;
+    margin: 5px;
+}
+.solids{
+    display: flex;
+    justify-content: center;
+}
+
+.solids .fa-solid{
+    color: gold;
+}
+
+
+
+
+
+
+
+
+
